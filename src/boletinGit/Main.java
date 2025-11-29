@@ -16,7 +16,7 @@ public class Main {
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
-// insertar codigo aqui
+                    Calculadora.ejecutarCalculadora();
                     break;
                 case 2:
 NumerosPrimos.comprobarPrimo();
