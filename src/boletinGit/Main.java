@@ -19,7 +19,7 @@ public class Main {
 // insertar codigo aqui
                     break;
                 case 2:
-// insertar codigo aqui
+NumerosPrimos.comprobarPrimo();
                     break;
                 case 3:
 // insertar codigo aqui
