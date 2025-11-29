@@ -13,5 +13,10 @@ public class Calculadora {
                 "\n\t3 - Multiplicación" +
                 "\n\t4 - División" +
                 "\n\t0 - Volver al menú\n");
+        System.out.println("Opción:");
+        int opcion = sc.nextInt();
+        System.out.println("Ingrese el segundo número:  ");
+        double numero2 = sc.nextDouble();
+        double resultado = 0;
     }
 }
