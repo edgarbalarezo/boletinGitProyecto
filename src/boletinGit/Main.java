@@ -19,13 +19,13 @@ public class Main {
 // insertar codigo aqui
                     break;
                 case 2:
-                    NumerosPrimos.comprobarPrimo();
+                    // insertar codigo aqui
                     break;
                 case 3:
 // insertar codigo aqui
                     break;
                 case 4:
-// insertar codigo aqui
+                    Notas.calcularMediaClase();
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");
