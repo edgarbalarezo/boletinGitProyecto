@@ -2,12 +2,12 @@ package boletinGit;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Pr ́actica de Git: ejercicio 2");
+        System.out.println("Práctica de Git: ejercicio 2");
         int opcion = 0;
         Scanner sc = new Scanner(System.in);
         do {
-            System.out.println("\nInserte una opci ́on:");
-            System.out.println("\t1 - CALCULADORA N ́UMEROS" +
+            System.out.println("\nInserte una opción:");
+            System.out.println("\t1 - CALCULADORA NÚMEROS" +
                     "\n\t2 - NUMEROS PRIMOS" +
                     "\n\t3 - CALCULADORA FIGURAS" +
                     "\n\t4 - CALCULADORA DE NOTAS" +
@@ -25,13 +25,13 @@ NumerosPrimos.comprobarPrimo();
 // insertar codigo aqui
                     break;
                 case 4:
-// insertar codigo aqui
+                    Notas.calcularMediaClase();
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
-                    System.err.println("ERROR: Opci ́on no reconocida.");
+                    System.err.println("ERROR: Opción no reconocida.");
             }
         } while (opcion != 0);
     }
