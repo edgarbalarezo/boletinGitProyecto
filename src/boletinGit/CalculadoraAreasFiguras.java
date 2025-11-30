@@ -9,5 +9,14 @@ public class CalculadoraAreasFiguras {
         System.out.println("1 - Círculo");
         System.out.println("2 - Cuadrado");
         System.out.println("3 - Triángulo");
+        int opcion = sc.nextInt();
+        double area = 0;
+        switch (opcion){
+            case 1:
+                System.out.print("Ingrese el radio: ");
+                double radio = sc.nextDouble();
+                area = Math.PI * radio * radio;
+                break;
+        }
     }
 }
