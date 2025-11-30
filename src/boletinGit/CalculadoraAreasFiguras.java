@@ -25,7 +25,7 @@ public class CalculadoraAreasFiguras {
                 break;
 
             case 3:
-                System.out.print("Ingrese la base del cuadrado: ");
+                System.out.print("Ingrese la base del triangulo: ");
                 double base = sc.nextDouble();
                 System.out.print("Ingrese la altura: ");
                 double altura = sc.nextDouble();
