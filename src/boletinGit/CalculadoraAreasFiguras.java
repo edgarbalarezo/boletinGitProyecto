@@ -31,8 +31,10 @@ public class CalculadoraAreasFiguras {
                 double altura = sc.nextDouble();
                 area = (base * altura) / 2;
                 break;
-
-
+            default:
+                System.out.println("Opción no válida");
+                return;
         }
+        System.out.println("El área es: " + area);
     }
 }
