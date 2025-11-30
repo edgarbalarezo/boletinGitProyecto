@@ -17,6 +17,14 @@ public class CalculadoraAreasFiguras {
                 double radio = sc.nextDouble();
                 area = Math.PI * radio * radio;
                 break;
+
+            case 2:
+                System.out.print("Ingrese el valor del lado del cuadrado: ");
+                double lado = sc.nextDouble();
+                area = lado * lado;
+                break;
+
+
         }
     }
 }
