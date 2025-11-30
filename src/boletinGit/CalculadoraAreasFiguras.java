@@ -24,6 +24,14 @@ public class CalculadoraAreasFiguras {
                 area = lado * lado;
                 break;
 
+            case 3:
+                System.out.print("Ingrese la base del cuadrado: ");
+                double base = sc.nextDouble();
+                System.out.print("Ingrese la altura: ");
+                double altura = sc.nextDouble();
+                area = (base * altura) / 2;
+                break;
+
 
         }
     }
