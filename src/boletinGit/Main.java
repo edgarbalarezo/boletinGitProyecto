@@ -22,7 +22,7 @@ public class Main {
 NumerosPrimos.comprobarPrimo();
                     break;
                 case 3:
-// insertar codigo aqui
+                    CalculadoraAreasFiguras.ejecutarCalculadoraFiguras();
                     break;
                 case 4:
                     Notas.calcularMediaClase();
